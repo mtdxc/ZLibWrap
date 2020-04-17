@@ -99,11 +99,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="tps\dirent.c" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ZLibWrapLib\ZLibWrapLib.vcxproj">
       <Project>{5165f5bd-8224-4145-8d45-324968d4f2b0}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tps\dirent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
